@@ -134,7 +134,7 @@ html {
 
 body {
   text-transform: uppercase;
-  font: 16px / 26px D-DIN-Regular, Arial, Verdana, sans-serif;
+  font: 16px / 26px "d-dinregular", Arial, Verdana, sans-serif;
 }
 
 .xnav {
@@ -180,16 +180,27 @@ a {
   margin-bottom: 5px;
 }
 
+h1 {
+  width: 70%;
+}
+
+h2 {
+  width: 50%;
+}
+
 h1,
 h2 {
   font-size: 2em;
-  font-weight: 700;
-  width: 50%;
   margin-bottom: 15px;
 }
 
+h1,
+h2,
 .btn {
-  width: 9%;
+  font-family: "d-dindin-bold", Arial, Helvetica, sans-serif;
+}
+
+.btn {
   border: 2px solid #000;
   padding: 10px 15px;
   margin-bottom: 20%;
