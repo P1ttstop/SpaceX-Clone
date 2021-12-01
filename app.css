@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 
+/* 
+  html { height: 100%*number of blocks; }, body { height: 100%;}, #div { height: 100%/number of blocks; }. 
+  So if you have 3 sections, it will be html { height: 300%; } body { height: 100%; } #div { height: 33.3% }
+*/
+
 html,
 body {
   height: 100%;
