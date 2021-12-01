@@ -193,6 +193,8 @@ a {
 
 .main-div a {
   margin: 15px 0 0;
+  transition: color 1s cubic-bezier(0.25, 1, 0.25, 1),
+    background-color 1s cubic-bezier(0.25, 1, 0.25, 1);
 }
 
 h1 {
@@ -223,6 +225,14 @@ h2,
   margin-bottom: 20%;
   width: 19%;
   text-align: center;
+  transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #fff;
+  color: #000;
 }
 
 .foot-nav {
