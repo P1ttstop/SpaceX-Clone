@@ -142,19 +142,19 @@ html {
 }
 
 body {
-  background: url(img/dart.jpg);
   color: #fff;
   text-transform: uppercase;
   font: 16px / 26px "d-dinregular", Arial, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 .xnav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
   width: 100%;
-  padding: 17px;
-  border-bottom: 1px solid white;
+  padding-bottom: 20px;
 }
 
 .xnav ul {
@@ -183,12 +183,21 @@ a {
   font-style: normal;
 }
 
-.main-div {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
   padding-left: 40px;
+}
+
+#section-one {
+  background: url(img/dart.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#section-one .btn {
+  margin-bottom: 25%;
 }
 
 #section-two {
@@ -254,7 +263,7 @@ h2,
 .btn {
   font-size: 14px;
   border: 2px solid #fff;
-  padding: 10px 15px;
+  padding: 12px 15px;
   margin-bottom: 20%;
   width: 19%;
   text-align: center;
