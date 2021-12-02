@@ -187,8 +187,47 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
-  border-bottom: 1px solid #fff;
   padding-left: 40px;
+}
+
+#section-one {
+  background: url(img/dart.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section-two {
+  background: url(img/crew3-3.jfif) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section-three {
+  background: url(img/crew2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section-four {
+  background: url(img/starlink.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section-five {
+  background: url(img/starship.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .main-div a {
