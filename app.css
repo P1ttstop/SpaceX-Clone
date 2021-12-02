@@ -309,3 +309,10 @@ h2,
 .foot-nav a:focus {
   color: #979797;
 }
+
+@media (min-width: 963px) {
+  .foot-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
