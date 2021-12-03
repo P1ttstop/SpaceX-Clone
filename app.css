@@ -166,6 +166,18 @@ body {
   height: auto;
 }
 
+.xnav a {
+  transition-property: text-decoration;
+  transition-duration: 5s;
+  transition-delay: 5s;
+  transition-timing-function: ease-out;
+}
+
+.xnav a:hover,
+.xnav a:focus {
+  text-decoration: underline;
+}
+
 .fill-white {
   fill: #fff;
 }
