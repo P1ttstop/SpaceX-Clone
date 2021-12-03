@@ -320,11 +320,16 @@ h2,
 
 @media (min-width: 963px) {
   .xnav {
+    padding: 0;
     margin: 0 auto;
+    margin: 0 0 0 100px;
     width: 90%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid white;
+  }
+
+  .xnav svg {
+    width: 210px;
   }
 
   .xnav ul {
@@ -339,8 +344,26 @@ h2,
     font-size: 14px;
   }
 
+  .topnav-left-list {
+    padding-right: 730px;
+    padding-top: 25px;
+  }
+
+  .topnav-left-list li {
+    padding-right: 30px;
+  }
+
+  .topnav-right-list {
+    padding-top: 25px;
+  }
+
+  .topnav-right-list li:first-child {
+    padding-right: 30px;
+  }
+
   .content {
     width: 520px;
+    padding-left: 100px;
   }
 
   #last {
