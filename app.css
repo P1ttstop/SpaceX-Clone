@@ -265,7 +265,7 @@ h2,
   border: 2px solid #fff;
   padding: 12px 15px;
   margin-bottom: 20%;
-  width: 19%;
+  width: 10em;
   text-align: center;
   transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   cursor: pointer;
@@ -311,6 +311,42 @@ h2,
 }
 
 @media (min-width: 963px) {
+  .xnav {
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+
+  .xnav ul {
+    display: flex;
+  }
+
+  .xnav li {
+    justify-content: space-between;
+  }
+
+  .xnav a {
+    font-size: 14px;
+  }
+
+  h1 {
+    width: 40%;
+  }
+
+  h2 {
+    width: 30%;
+  }
+
+  h1,
+  h2 {
+    font-size: 48px;
+  }
+
+  .btn {
+  }
+
   .foot-nav {
     flex-direction: row;
     justify-content: center;
