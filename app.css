@@ -238,13 +238,20 @@ a {
     background-color 1s cubic-bezier(0.25, 1, 0.25, 1);
 }
 
+.content {
+  width: 400px;
+}
+
+#last {
+  width: 311px;
+  padding-bottom: 50px;
+}
+
 h1 {
-  width: 60%;
   margin: 0 0 20px;
 }
 
 h2 {
-  width: 45%;
   margin: 0 0 5px;
 }
 
@@ -252,6 +259,7 @@ h1,
 h2 {
   font-size: 36px;
   line-height: 1;
+  letter-spacing: -1px;
 }
 
 h1,
@@ -283,7 +291,7 @@ h2,
   align-content: space-around;
   width: 100%;
   font: 12px "d-dindin-bold", Arial, Helvetica, sans-serif;
-  padding: 38px 0;
+  padding: 39px 0;
   background-color: black;
 }
 
@@ -331,20 +339,17 @@ h2,
     font-size: 14px;
   }
 
-  h1 {
-    width: 40%;
+  .content {
+    width: 520px;
   }
 
-  h2 {
-    width: 30%;
+  #last {
+    width: 468px;
   }
 
   h1,
   h2 {
     font-size: 48px;
-  }
-
-  .btn {
   }
 
   .foot-nav {
